@@ -27,8 +27,6 @@ function App () {
     };
     addLocation([ ...locations, newMarker ]);
   };
-  console.log('locations', locations);
-  console.log('polyLocations', polyLocations);
 
   return (
     <div className={styles.root}>
